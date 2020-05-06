@@ -296,7 +296,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "video":
                 await bot.send_video(
-                    chat_id="-1001123737573",
+                    chat_id="-1001148345121",
                     video=download_directory,
                     caption=description,
                     parse_mode="HTML",
