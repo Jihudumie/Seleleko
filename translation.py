@@ -1,37 +1,5 @@
 class Translation(object):
-    START_TEXT = """**KARIBU** 
-Allah Akujaalie Wepesi Kunielewa Na kunitumia
-
-🤖 **KAZI YANGU**
-Nina Uwezo Mkubwa
-Wa Ku, Upload ⬆️.
-Video 📹
-Audio 🎧
-File n.k **BURE** 🆓 Bila kutumia MB Au Bando Lako
-
-**CHAKUFANYA**
-Mfano: Nitumie Link 🔗 Au URL Kutoka Youtube. Nami nitakutumia Video/Audio
-Kulingana na Chaguolako.
-
-**UWEZO WANGU**
-1. Huduma hii naifanya Bure 🆓.
-
-2. Kazi yangu mimi ni Uploader ⬆️ usipoelewa Uliza anaejua.
-
-3. Nitumie direct Link Zenye Video,Audio,file Kutoka popote
-   Kisha Chagua Nami nitafanya Kazi yangu, In Shaa Allah.
-
-4. Soma 👇MUONGOZO Kwa Maelekezo Zaidi Kama BADO huja elewa
-<a
-href='https://telegra.ph/Upload-Audio-File-Video-BUREE-02-22'>MUONGOZO  👀</a>
-------------√
-
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
-
-Gusa hapa 👉/help for more details.
-
-Support Group : @Huduma
-© @Twuwbaa"""
+    START_TEXT = "Karibu Tambua Bot hili ni Kwa matumizi Binafusi Kwa Ajili ya Waislam Tu"
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "No Plans dear. Create your own URL Bot : ➠ <a href='https://github.com/TGExplore/TG-URL-Uploader'>Clone Code</a>."
@@ -62,27 +30,7 @@ Jiunge Nasi : 🖲 @Hamisbot
 
 Support Group : @Huduma
 © @Twuwbaa"""
-    HELP_USER = """There are multiple things I can do:
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>Kama Hujaelewa kazi ya Bot hii, Na jinsi ya kuitumia, Soma Muongozo</b> 
-<a
-href='https://telegra.ph/Upload-Audio-File-Video-BUREE-02-22'>MUONGOZO  👀</a>
-Utakusaidia ⇧⇧📄
-
-<b>➠ Create own Clone Bot : ☟</b> <a href='https://youtu.be/QkAkSLBgoYw'>Deploy</a>
-
---------
-Send /me to know current plan details
-
-Support Group : @Huduma
-© @Twuwbaa"""
+    HELP_USER = "Kama Umeshindwa Kutumia Bot hili Uliza kupitia @KhamissBot Au @ViongoziBot"
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
