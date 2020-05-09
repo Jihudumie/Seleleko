@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Khamis s
+# (c) Shrimadhav U K
 
 # the logging things
 import logging
@@ -296,7 +296,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "video":
                 await bot.send_video(
-                    chat_id="-1001148345121",
+                    chat_id=update.message.chat.id,
                     video=download_directory,
                     caption=description,
                     parse_mode="HTML",
