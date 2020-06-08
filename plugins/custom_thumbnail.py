@@ -126,16 +126,3 @@ async def delete_thumbnail(bot, update):
             message_ids=update.message_id,
             revoke=True
         )
-        return
-    TRChatBase(update.from_user.id, update.text, "deletethumbnail")
-    download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id)
-    try:
-        os.remove(download_location + ".jpg")
-        # os.remove(download_location + ".json")
-    except:
-        pass
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.DEL_ETED_CUSTOM_THUMB_NAIL,
-        reply_to_message_id=update.message_id
-    )
