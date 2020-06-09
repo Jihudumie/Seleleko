@@ -242,6 +242,7 @@ async def youtube_dl_call_back(bot, update):
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             else:
                 thumb_image_path = None
+            start_time = time.time()
             # try to upload file
             if tg_send_type == "audio":
                 await bot.send_audio(
@@ -321,6 +322,7 @@ async def youtube_dl_call_back(bot, update):
             #
             try:
                 shutil.rmtree(tmp_directory_for_each_user)
+                os.remove(thumb_image_path)
             except:
                 pass
             await bot.edit_message_text(
